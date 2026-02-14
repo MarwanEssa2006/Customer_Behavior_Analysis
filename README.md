@@ -121,6 +121,7 @@ Certain product categories dominate discount usage.
 Repeat buyers show higher subscription probability.
 
 🖼 Dashboard Preview
+
 <img width="1167" height="664" alt="Screenshot 2026-02-14 232944" src="https://github.com/user-attachments/assets/18dbb03e-c3af-47ea-8fbf-565a93954fb4" />
 
 
@@ -131,6 +132,5 @@ It reflects real-world analytical workflows and is suitable for portfolios, inte
 
 Load visuals and apply filters.
 
-🖼 Dashboard Preview
 
 
