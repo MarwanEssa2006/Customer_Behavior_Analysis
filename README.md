@@ -1,14 +1,18 @@
-Data Analytics Project
-Overview
+📊 Data Analytics Project
 
-This project demonstrates an end-to-end data analytics workflow starting from raw data loading to visualization and reporting.
-The goal is to analyze customer purchase behavior, extract insights using SQL and Python, and present the results in an interactive dashboard and presentation format.
+An end-to-end data analytics project that analyzes customer purchasing behavior using Python, SQL, and Power BI.
+The project demonstrates data cleaning, exploratory analysis, database querying, dashboard creation, and reporting.
 
-Dataset
+🚀 Overview
 
-Source: Customer purchase dataset (CSV format)
+This project transforms raw customer data into meaningful business insights.
+It covers the full analytics lifecycle — from data preparation to visualization and presentation.
 
-Content Includes:
+🗂 Dataset
+
+Customer Purchase Dataset (CSV)
+
+Main Columns
 
 Customer ID
 
@@ -30,122 +34,103 @@ Subscription Status
 
 Previous Purchases
 
-Tools & Technologies
+🛠 Tools & Technologies
 
-Python – Data loading, cleaning, and EDA
+Python – Data processing & EDA
 
 Pandas / NumPy – Data manipulation
 
-Matplotlib / Seaborn – Visualization
+Matplotlib / Seaborn – Charts & visualization
 
-SQL (PostgreSQL / MySQL / SQL Server) – Querying and aggregations
+SQL (PostgreSQL / MySQL / SQL Server) – Data querying
 
-Power BI – Dashboard creation
+Power BI – Interactive dashboard
 
-Microsoft PowerPoint / Gamma – Final presentation
+PowerPoint / Gamma – Final presentation
 
-Steps
-1. Data Loading
+🧹 Data Preparation
 
-Imported CSV dataset into Python using Pandas.
+Removed null and duplicate records
 
-Stored cleaned data into a SQL database.
+Standardized column names
 
-2. Data Cleaning
+Converted data types
 
-Removed duplicates and null values.
+Exported cleaned data to SQL database
 
-Standardized column names.
+🔍 Exploratory Data Analysis (EDA)
 
-Converted data types where necessary.
+Revenue comparison by gender
 
-3. Exploratory Data Analysis (EDA)
-
-Gender revenue comparison
-
-Discount impact analysis
+Discount impact on spending
 
 Product rating trends
 
-Shipping type spending patterns
+Shipping type vs purchase amount
 
-Subscription vs non-subscription spending
+Subscription vs non-subscription behavior
 
-4. SQL Analysis
+🗄 SQL Analysis
 
-Executed multiple analytical queries such as:
+Key business questions answered:
 
 Total revenue by gender
 
-Top-rated products
+Customers using discounts above average spending
 
-Discount usage percentage
+Top rated products
 
-Customer segmentation (New, Returning, Loyal)
+Standard vs Express shipping spending
 
-Top products per category
+Subscriber vs Non-subscriber revenue
+
+Discount usage percentage per product
+
+Customer segmentation (New / Returning / Loyal)
+
+Top 3 products per category
+
+Repeat buyers vs subscription likelihood
 
 Revenue contribution by age group
 
-5. Dashboard
+📊 Dashboard
 
-Built an interactive Power BI dashboard including:
+Power BI Dashboard Includes
 
-Revenue breakdowns
+KPI Cards (Total Revenue, Avg Purchase, Subscribers)
 
-Customer segmentation charts
+Revenue by Gender & Age Group
 
-Product performance visuals
+Product Performance Rankings
 
-Discount and subscription insights
+Discount & Subscription Insights
 
-6. Reporting & Presentation
+Category & Shipping Filters
 
-Created a summarized analytical report.
+📈 Key Insights
 
-Designed a presentation using Gamma / PowerPoint to communicate findings.
+Loyal customers generate the highest revenue.
 
-Dashboard Features
+Subscribers spend more on average.
 
-KPI cards (Total Revenue, Avg Purchase, Subscribers)
-
-Bar and Pie charts for demographic analysis
-
-Product performance rankings
-
-Filters for category, gender, and subscription status
-
-Results & Insights
-
-Clear spending differences between genders and shipping types.
-
-Loyal and subscribed customers contribute higher revenue.
+Express shipping users tend to purchase higher amounts.
 
 Certain product categories dominate discount usage.
 
-Repeat buyers show higher likelihood of subscription.
+Repeat buyers show higher subscription probability.
 
-Age groups vary significantly in revenue contribution.
+🖼 Dashboard Preview
+<img width="1167" height="664" alt="Screenshot 2026-02-14 232944" src="https://github.com/user-attachments/assets/18dbb03e-c3af-47ea-8fbf-565a93954fb4" />
 
-How to Run
-Python
-pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2
-python analysis.py
 
-SQL
+⭐ Conclusion
 
-Create database in PostgreSQL / MySQL / SQL Server.
+This project highlights practical skills in data cleaning, SQL analytics, visualization, and business insight generation.
+It reflects real-world analytical workflows and is suitable for portfolios, internships, and recruiter reviews.
 
-Import cleaned dataset.
+Load visuals and apply filters.
 
-Execute the provided SQL queries.
+🖼 Dashboard Preview
 
-Power BI
 
-Connect Power BI to the database or CSV.
-Conclusion
-This project showcases practical skills in data preprocessing, SQL analytics, visualization, and business insight generation. It reflects the full lifecycle of a real-world data analytics task and is suitable for academic, portfolio, or recruiter review.
-
-Load tables.
-
-Apply visuals and filters as designed.
