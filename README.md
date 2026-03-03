@@ -1,136 +1,122 @@
-📊 Data Analytics Project
+# 📊 **Customer Data Analytics Project**  
 
-An end-to-end data analytics project that analyzes customer purchasing behavior using Python, SQL, and Power BI.
-The project demonstrates data cleaning, exploratory analysis, database querying, dashboard creation, and reporting.
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/) 
+[![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=microsoft-power-bi&logoColor=black)](https://powerbi.microsoft.com/)  
 
-🚀 Overview
+An end-to-end **data analytics project** analyzing customer purchasing behavior using **Python, SQL, and Power BI**.  
+Demonstrates **data cleaning, exploratory analysis, database querying, dashboard creation, and reporting**.
 
-This project transforms raw customer data into meaningful business insights.
-It covers the full analytics lifecycle — from data preparation to visualization and presentation.
+---
 
-🗂 Dataset
+## 🚀 **Overview**
 
-Customer Purchase Dataset (CSV)
+This project transforms raw customer data into meaningful business insights.  
+Covers the full analytics lifecycle — from **data preparation** to **visualization and presentation**.
 
-Main Columns
+---
 
-Customer ID
+## 🗂 **Dataset**
 
-Gender
+**Customer Purchase Dataset (CSV)**  
 
-Age Group
+**Main Columns:**
 
-Purchase Amount
+- Customer ID  
+- Gender  
+- Age Group  
+- Purchase Amount  
+- Product Category  
+- Review Rating  
+- Shipping Type  
+- Discount Applied  
+- Subscription Status  
+- Previous Purchases  
 
-Product Category
+---
 
-Review Rating
+## 🛠 **Tools & Technologies**
 
-Shipping Type
+- **Python** – Data processing & EDA  
+- **Pandas / NumPy** – Data manipulation  
+- **Matplotlib / Seaborn** – Charts & visualization  
+- **SQL (PostgreSQL / MySQL / SQL Server)** – Data querying  
+- **Power BI** – Interactive dashboard  
+- **PowerPoint / Gamma** – Final presentation  
 
-Discount Applied
+---
 
-Subscription Status
+## 🧹 **Data Preparation**
 
-Previous Purchases
+- Removed null and duplicate records  
+- Standardized column names  
+- Converted data types  
+- Exported cleaned data to SQL database  
 
-🛠 Tools & Technologies
+---
 
-Python – Data processing & EDA
+## 🔍 **Exploratory Data Analysis (EDA)**
 
-Pandas / NumPy – Data manipulation
+- Revenue comparison by gender  
+- Discount impact on spending  
+- Product rating trends  
+- Shipping type vs purchase amount  
+- Subscription vs non-subscription behavior  
 
-Matplotlib / Seaborn – Charts & visualization
+---
 
-SQL (PostgreSQL / MySQL / SQL Server) – Data querying
+## 🗄 **SQL Analysis**
 
-Power BI – Interactive dashboard
+**Key business questions answered:**
 
-PowerPoint / Gamma – Final presentation
+- Total revenue by gender  
+- Customers using discounts above average spending  
+- Top rated products  
+- Standard vs Express shipping spending  
+- Subscriber vs Non-subscriber revenue  
+- Discount usage percentage per product  
+- Customer segmentation (New / Returning / Loyal)  
+- Top 3 products per category  
+- Repeat buyers vs subscription likelihood  
+- Revenue contribution by age group  
 
-🧹 Data Preparation
+---
 
-Removed null and duplicate records
+## 📊 **Dashboard (Power BI)**
 
-Standardized column names
+**Includes:**
 
-Converted data types
+- KPI Cards (Total Revenue, Avg Purchase, Subscribers)  
+- Revenue by Gender & Age Group  
+- Product Performance Rankings  
+- Discount & Subscription Insights  
+- Category & Shipping Filters  
 
-Exported cleaned data to SQL database
+---
 
-🔍 Exploratory Data Analysis (EDA)
+## 📈 **Key Insights**
 
-Revenue comparison by gender
+- **Loyal customers** generate the highest revenue  
+- **Subscribers** spend more on average  
+- **Express shipping users** purchase higher amounts  
+- Certain product categories dominate **discount usage**  
+- **Repeat buyers** show higher subscription probability  
 
-Discount impact on spending
+---
 
-Product rating trends
+## 🖼 **Dashboard Preview**
 
-Shipping type vs purchase amount
+<img width="1167" height="664" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/18dbb03e-c3af-47ea-8fbf-565a93954fb4" />
 
-Subscription vs non-subscription behavior
+---
 
-🗄 SQL Analysis
+## ⭐ **Conclusion**
 
-Key business questions answered:
+This project highlights **practical skills** in data cleaning, SQL analytics, visualization, and business insight generation.  
+Reflects **real-world analytical workflows** and is suitable for **portfolios, internships, and recruiter reviews**.
 
-Total revenue by gender
-
-Customers using discounts above average spending
-
-Top rated products
-
-Standard vs Express shipping spending
-
-Subscriber vs Non-subscriber revenue
-
-Discount usage percentage per product
-
-Customer segmentation (New / Returning / Loyal)
-
-Top 3 products per category
-
-Repeat buyers vs subscription likelihood
-
-Revenue contribution by age group
-
-📊 Dashboard
-
-Power BI Dashboard Includes
-
-KPI Cards (Total Revenue, Avg Purchase, Subscribers)
-
-Revenue by Gender & Age Group
-
-Product Performance Rankings
-
-Discount & Subscription Insights
-
-Category & Shipping Filters
-
-📈 Key Insights
-
-Loyal customers generate the highest revenue.
-
-Subscribers spend more on average.
-
-Express shipping users tend to purchase higher amounts.
-
-Certain product categories dominate discount usage.
-
-Repeat buyers show higher subscription probability.
-
-🖼 Dashboard Preview
-
-<img width="1167" height="664" alt="Screenshot 2026-02-14 232944" src="https://github.com/user-attachments/assets/18dbb03e-c3af-47ea-8fbf-565a93954fb4" />
-
-
-⭐ Conclusion
-
-This project highlights practical skills in data cleaning, SQL analytics, visualization, and business insight generation.
-It reflects real-world analytical workflows and is suitable for portfolios, internships, and recruiter reviews.
-
-Load visuals and apply filters.
-
-
-
+---
+## 🔧 **👨‍💻 About the Author**
+   - Marwan Essa – Data Analyst & Full-Stack Developer.  
+   - LinkedIn: marwanessa-fullstack
+   - GitHub: MarwanEssa2006
